@@ -1,0 +1,7 @@
+2022-08-18 08:28:58,393+0530 INFO  [quartz-9-thread-2]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask - Task information:
+2022-08-18 08:28:58,393+0530 INFO  [quartz-9-thread-2]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  ID: 18ec3f3b-c058-4761-86f5-1c1bbf381e5a
+2022-08-18 08:28:58,393+0530 INFO  [quartz-9-thread-2]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  Type: repository.rebuild-index
+2022-08-18 08:28:58,393+0530 INFO  [quartz-9-thread-2]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  Name: Repair - Rebuild repository search
+2022-08-18 08:28:58,393+0530 INFO  [quartz-9-thread-2]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask -  Description: Rebuilding search index of maven-snapshots
+2022-08-18 08:28:58,401+0530 INFO  [quartz-9-thread-2]  *SYSTEM org.sonatype.nexus.repository.search.ElasticSearchFacetImpl - Rebuilding index of repository maven-snapshots
+2022-08-18 08:28:58,565+0530 INFO  [quartz-9-thread-2]  *SYSTEM org.sonatype.nexus.repository.search.index.RebuildIndexTask - Task complete

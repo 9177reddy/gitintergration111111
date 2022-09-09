@@ -1,0 +1,36 @@
+<project name="test" default="compile">
+
+
+<path id="libpath">
+<fileset dir="lib">
+<include name="**/*.jar"/>
+</fileset>
+</path>
+
+<target name="sample">
+
+<echo>this is sample ant task</echo>
+
+</target>
+
+<target name="delete" depends="sample">
+<delete dir="build"/>
+<delete dir="dist"/>
+</target>
+
+<target name="initialize" depends="delete">
+
+<mkdir dir="build/classes"/>
+<mkdir dir="dist"/>
+</target>
+
+<target name="compile" depends="initialize">
+<javac srcdir="src" destdir="build/classes" classpathref="libpath"/>
+</target>
+
+<target name="package" depends="compile">
+<jar destfile="dist/lib/app-1.0.jar"
+     basedir="build/classes"
+/>     
+</target>
+</project>
